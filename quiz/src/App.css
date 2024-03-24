@@ -1,0 +1,38 @@
+.App {
+  background-color: #36454f;
+  color: white;
+  width: 100vw;
+  height: 100vh;
+}
+.App-header {
+  padding-top: 20vh;
+  margin-left: 30%;
+  margin-right: 30%;
+  height: 40vh;
+}
+
+@media (max-width: 768px) {
+  .App-header {
+    padding-top: 10vh;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 30vh;
+  }
+
+  @media (max-width: 497px) {
+    .App-header {
+      padding-top: 30vh;
+      margin-left: 15%;
+      margin-right: 1%;
+      height: 30vh;
+    }
+    @media (max-width: 350px) {
+      .App-header {
+        padding-top: 30vh;
+        margin-left: 5%;
+        margin-right: 1%;
+        height: 30vh;
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+.sub{
+    display: flex;
+    justify-content: space-between;
+
+}
+.subText2{
+    text-align: right;
+}
+  .progressBar1 {
+    border-radius: 20px;
+    position: absolute;
+    height: 10px;
+    width: 40%;
+    background-color: blue;
+    z-index: 200;
+  }
+  
+  .progressBar2 {
+    position: absolute;
+    border-radius: 20px;
+    height: 10px;
+    width: 100%;
+    background-color:bisque;
+  }
+
+.progress{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.progressBar{
+    position: relative;
+}
+@media (max-width: 400px) {
+  .progress{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding: 2vw;
+}
+  .progressBar1 {
+    border-radius: 20px;
+    position: absolute;
+    height: 2vh;
+    width: 40%;
+    background-color: blue;
+    z-index: 200;
+  }
+  
+  .progressBar2 {
+    position: absolute;
+    border-radius: 20px;
+    height: 2vh;
+    width: 100%;
+    background-color:bisque;
+  }
+
+}

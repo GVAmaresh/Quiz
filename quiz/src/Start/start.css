@@ -1,0 +1,44 @@
+.start {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    height: 20vh;
+    padding: 10vh;
+    border-radius: 5vh;
+    width: 40vh;
+    margin-left: 5vw;
+  }
+  
+  .participant {
+    margin-bottom: 2vh;
+  }
+  
+  .code {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-column-gap: 2vw;
+  }
+  
+  input {
+    padding: 1vh;
+    border-radius: 2vh;
+    padding-left: 1vw;
+  }
+  
+  .change {
+    margin-top: 5vh;
+    margin-left: 5vw;
+  }
+  
+  @media screen and (max-width: 497px) {
+    .start {
+        height: 20vh;
+        padding: 5vh;
+        border-radius: 5vh;
+        width: 40vh;
+        margin-left: 0vw;
+    }
+    input {
+        padding: 1%;
+        padding-left: 4vw;
+      }
+  }
+  

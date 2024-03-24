@@ -1,0 +1,53 @@
+[
+    {
+      "question": "Which of the following is a popular JavaScript library for building user interfaces?",
+      "choices": ["React.js", "Express.js", "Vue.js", "Angular.js"],
+      "answer": "React.js"
+    },
+    {
+      "question": "What is the primary purpose of Redux in a React application?",
+      "choices": ["State management", "Routing", "Styling", "Form handling"],
+      "answer": "State management"
+    },
+    {
+      "question": "In React, which component's state should be modified directly?",
+      "choices": ["Parent component", "Child component", "Any component", "None of the components"],
+      "answer": "None of the components"
+    },
+    {
+      "question": "What is the main benefit of using JSX in React.js?",
+      "choices": ["Improved performance", "Easier debugging", "Type safety", "Readability"],
+      "answer": "Readability"
+    },
+    {
+      "question": "In React, which lifecycle method is called after a component has been rendered to the DOM?",
+      "choices": ["componentDidMount", "componentDidUpdate", "componentWillUnmount", "componentWillMount"],
+      "answer": "componentDidMount"
+    },
+    {
+      "question": "What is the purpose of the `props` object in React components?",
+      "choices": ["To manage component state", "To pass data from parent to child components", "To handle user input", "To define component methods"],
+      "answer": "To pass data from parent to child components"
+    },
+    {
+      "question": "In React, what is the role of a 'key' prop when rendering a list of elements?",
+      "choices": ["It's used for styling", "It's used for conditional rendering", "It's used to uniquely identify each element", "It's not used in lists"],
+      "answer": "It's used to uniquely identify each element"
+    },
+    {
+      "question": "What is the purpose of React Router in a React application?",
+      "choices": ["State management", "Server-side rendering", "Handling user authentication", "Client-side routing"],
+      "answer": "Client-side routing"
+    },
+    {
+      "question": "Which of the following is a way to handle forms in React?",
+      "choices": ["Using the 'form' HTML element", "Using 'useState' hook", "Using the 'Form' component", "Using the 'controlled component' pattern"],
+      "answer": "Using the 'controlled component' pattern"
+    },
+    {
+      "question": "What is the React concept that allows components to pass data up to their parent components?",
+      "choices": ["Prop drilling", "State lifting", "Data forwarding", "Parent-child communication"],
+      "answer": "State lifting"
+    }
+  ]
+  

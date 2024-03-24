@@ -1,0 +1,33 @@
+.question {
+  margin-top: 4vh;
+  text-align: center;
+}
+.question-text {
+  margin-bottom: 2vh;
+}
+.choice {
+  text-align: left;
+}
+.choice-text {
+  background-color: #ffa500;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 5vh;
+  margin-top: 1vh;
+}
+@media (max-width: 350px) {
+  .choice-text {
+    background-color: #ffa500;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-size: medium;
+    font-weight: 200;
+    padding: 5px;
+    padding-left: 3vh;
+    border-radius: 5vh;
+    margin-top: 1vh;
+  }
+}
