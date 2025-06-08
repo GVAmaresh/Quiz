@@ -62,15 +62,15 @@ NEXTAUTH_SECRET="your_secret_here"
 ### Database Model (Quiz)
 ```javascript
 {  
-  public_id: String,   // Participant access code  
-  private_id: String,  // Admin access code  
+  public_id: String,   
+  private_id: String,  
   questions: [{  
     questionText: String,  
-    options: [String], // Array of choices  
-    correctAnswer: Number, // Index of correct option  
-    timer: Number      // Seconds per question  
+    options: [String],  
+    correctAnswer: Number, 
+    timer: Number    
   }],  
-  expiresAt: Date      // Auto-delete after 24d (default)  
+  expiresAt: Date      
 }
 ```
 ### Key API Endpoints
